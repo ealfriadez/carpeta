@@ -1,6 +1,2 @@
-spring:
-  profiles:
-    active:
-      - dev
 configuration:
-  texto: "Texto por defecto pero con cambios pero ahora automatizados"
+  texto: "Texto por defecto pero con cambios 111111111111111"
