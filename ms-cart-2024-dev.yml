@@ -1,6 +1,4 @@
-spring:
-  profiles:
-    active:
-      - dev
+server:
+  port: 8005
 configuration:
   texto: "Texto por defecto pero con cambios pero ahora automatizados"
