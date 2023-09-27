@@ -1,7 +1,7 @@
 server:
   port: 8005
 configuration:
-  texto: "Texto por defecto pero con cambios 22222222222222"
+  texto: "Texto por defecto pero con cambios 44444"
   autor:
     nombre: "Eleazar Alfredo Alfriadez Yriarte"
     email: "ealfriadez@gmail.com"
