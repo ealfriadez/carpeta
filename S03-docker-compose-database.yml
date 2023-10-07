@@ -1,0 +1,27 @@
+version: "3.5"
+
+services:
+  postgres:
+    image: postgres:12-alpine
+    container_name: db-postgres-product
+    environment:
+    - POSTGRES_DB=db_product
+    - POSTGRES_PASSWORD=123456
+    ports:
+    - 5432:5432
+    networks:
+    - msbasic
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2019-CU3-ubuntu-18.04
+    container_name: db-sqlserver-cart
+    environment:
+    - ACCEPT_EULA=Y
+    - SA_PASSWORD=1a.2b.3c.
+    ports:
+    - 1433:1433
+    networks:
+    - msbasic
+networks:
+  msbasic:
+    name: ms-basic-oct-23
+
